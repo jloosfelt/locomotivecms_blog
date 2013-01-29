@@ -1,0 +1,140 @@
+Started GET "/posts/post1" at 2013-01-29 18:44:28 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.703ms
+
+
+* Reloaded "content_entries" at 2013-01-29 18:51:48 +0100
+Started GET "/posts/post1" at 2013-01-29 18:51:48 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.761ms
+
+
+* Reloaded "content_entries" at 2013-01-29 18:51:54 +0100
+Started GET "/posts/post1" at 2013-01-29 18:51:54 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.7550000000000001ms
+
+
+* Reloaded "content_entries" at 2013-01-29 18:51:57 +0100
+Started GET "/posts/post1" at 2013-01-29 18:51:57 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.724ms
+
+
+* Reloaded "content_entries" at 2013-01-29 18:52:00 +0100
+Started GET "/posts/post1" at 2013-01-29 18:52:01 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.6219999999999999ms
+
+
+* Reloaded "content_entries" at 2013-01-29 18:52:08 +0100
+Started GET "/posts/post1" at 2013-01-29 18:52:09 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.573ms
+
+
+* Reloaded "content_entries" at 2013-01-29 18:52:25 +0100
+Started GET "/posts/post1" at 2013-01-29 18:52:28 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.598ms
+
+
+* Reloaded "content_entries" at 2013-01-29 18:52:38 +0100
+Started GET "/posts/post1" at 2013-01-29 18:52:39 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.641ms
+
+
+* Reloaded "content_entries" at 2013-01-29 18:52:56 +0100
+Started GET "/posts/post1" at 2013-01-29 18:52:57 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.603ms
+
+
+Started GET "/posts/post1" at 2013-01-29 18:53:07 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Page not found
+Rendered liquid template
+Completed 200 OK in 2.124ms
+
+
+Started GET "/posts/post1" at 2013-01-29 18:53:08 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Page not found
+Rendered liquid template
+Completed 200 OK in 1.087ms
+
+
+Started GET "/posts/post1" at 2013-01-29 18:53:08 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Page not found
+Rendered liquid template
+Completed 200 OK in 1.103ms
+
+
+Started GET "/posts/post1" at 2013-01-29 18:53:09 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Page not found
+Rendered liquid template
+Completed 200 OK in 1.048ms
+
+
+Started GET "/posts/post-1" at 2013-01-29 18:53:11 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 2.489ms
+
+
+Started GET "/posts/post-1" at 2013-01-29 18:53:12 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.709ms
+
+
+* Reloaded "content_types", "content_entries" at 2013-01-29 18:54:40 +0100
+* Reloaded "content_types", "content_entries" at 2013-01-29 18:54:40 +0100
+Started GET "/posts/post-1" at 2013-01-29 18:54:41 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.875ms
+
+
+Started GET "/posts/post-1" at 2013-01-29 18:54:50 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 3.451ms
+
+
+Started GET "/posts/post-1" at 2013-01-29 18:54:50 +0100
+Detecting locale EN
+Found page "Post page" [/posts/template]
+Rendered liquid template
+Completed 200 OK in 1.848ms
+
+
