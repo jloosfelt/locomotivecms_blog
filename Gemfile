@@ -9,7 +9,6 @@ group :development do
   gem 'rb-fsevent', '~> 0.9.1', :require => RUBY_PLATFORM.include?('darwin') && 'rb-fsevent'
 
   # TODO: Linux
-
   # TODO: Windows
 end
 
