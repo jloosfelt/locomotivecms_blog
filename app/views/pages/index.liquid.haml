@@ -1,0 +1,41 @@
+---
+title: 
+  en: Home page
+  fr: Accueil
+published: true
+---
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %title {{ page.title }} | {{ site.name }}
+    %meta{:name => "description", :value => "{{ site.meta_description }}"}/
+    {{ 'styles' | stylesheet_tag }}
+  %body
+    %header
+      %img{src: "{{ 'logo-locomotive.png' | theme_image_url }}"}
+      {% locale_switcher label: locale, sep: ' - ' %}
+    {{params['q']}}
+    %nav
+      %ul
+        %li
+          %a{:href => "/"} Home
+        {% for post in contents.posts %}
+        %li
+          %a{:href => "/posts/{{ post._slug }}"} {{ post.title }}
+        {% endfor %}
+    .content
+      .main
+        {% block 'main' %}
+        %h1 {{ page.title }}
+        %p {{ 'welcome' | translate }}
+        {% editable_long_text 'intro' %}Intro{% endeditable_long_text %}
+        %p 
+          {{ 'last_post' | translate }}:
+          %br
+          {% for post in contents.posts, limit: 1 %}
+          %a{href: "{% if locale != 'en' %}/{{ locale }}{% endif %}/posts/{{ post._permalink }}"} {{post.title}}
+          {% endfor %}
+        {% endblock %}
+    %footer
+      %a{href: "{% if locale != 'en' %}/{{ locale }}{% endif %}/terms"} Terms

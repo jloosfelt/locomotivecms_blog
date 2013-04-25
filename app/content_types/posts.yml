@@ -2,9 +2,8 @@ name: Posts
 slug: posts
 description: A description of the content type for the editors
 label_field_name: title
-order_by: manually
-
-
+order_by: created_at
+order_direction: desc
 
 fields: 
 - title: 

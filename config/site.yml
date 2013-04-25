@@ -8,7 +8,7 @@ name: locoblog
 # domains: [www.example.com, example.com]
 
 # TODO: explain it
-locales: [en]
+locales: [en, fr]
 
 # TODO: explain it
 seo_title: locoblog

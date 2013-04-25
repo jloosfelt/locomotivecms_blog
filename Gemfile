@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # ruby '1.9.3'
 
-gem 'locomotivecms_builder', '~> 1.0.0.alpha4'
+gem 'locomotivecms_wagon'
 
 group :development do
   # Mac OS X
@@ -14,6 +14,6 @@ end
 
 group :misc do
   # Add your extra gems here
-  # gem 'susy', require: 'susy'
+  gem 'susy', require: 'susy'
   # gem 'redcarpet', require: 'redcarpet'
 end

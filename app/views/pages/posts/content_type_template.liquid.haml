@@ -1,17 +1,21 @@
 ---
 title: Post page
-published: false
+published: true
 content_type: posts
 ---
 {% extends 'index' %}
 {% block main %}
-<h1>{{ post.title }}</h1>
+%h1 {{ post.title }}
 {{ post.description }}
-<hr />
-<p>comments:</p>
-<ul>
+%hr
+%p
+  comments:
+%ul
   {% for comment in post.comments %}
-  <li><strong>{{comment.name}}</strong><br />{{ comment.description }}</li>
+  %li
+    %strong
+      {{comment.name}}
+    %br
+    {{ comment.description }}
   {% endfor %}
-</ul>
 {% endblock %}
